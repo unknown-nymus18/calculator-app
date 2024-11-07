@@ -31,9 +31,6 @@ class _HomeState extends State<Home> {
   }) {
     if (operator == 'x') {
       result[0] = (double.parse(operand1) * double.parse(operand2)).toString();
-      // if (double.parse(result[0]) == double.parse(result[0]).toInt()) {
-      //   result[0] = double.parse(result[0]).truncate().toString();
-      // }
     } else if (operator == '+') {
       result[0] = (double.parse(operand1) + double.parse(operand2)).toString();
     } else if (operator == '-') {
